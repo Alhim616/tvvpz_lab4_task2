@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "QVRpH2GKows=",
+  "success": true,
+  "projectFilePath": "D:\\ztu\\magist\\sem1\\ТВВПЗ\\lab3\\task3\\DemoblazeE2ETests\\DemoblazeE2ETests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mralh\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
+    "C:\\Users\\mralh\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
+    "C:\\Users\\mralh\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",
+    "C:\\Users\\mralh\\.nuget\\packages\\microsoft.net.test.sdk\\17.12.0\\microsoft.net.test.sdk.17.12.0.nupkg.sha512",
+    "C:\\Users\\mralh\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.12.0\\microsoft.testplatform.objectmodel.17.12.0.nupkg.sha512",
+    "C:\\Users\\mralh\\.nuget\\packages\\microsoft.testplatform.testhost\\17.12.0\\microsoft.testplatform.testhost.17.12.0.nupkg.sha512",
+    "C:\\Users\\mralh\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512",
+    "C:\\Users\\mralh\\.nuget\\packages\\nunit\\4.2.2\\nunit.4.2.2.nupkg.sha512",
+    "C:\\Users\\mralh\\.nuget\\packages\\nunit.analyzers\\4.4.0\\nunit.analyzers.4.4.0.nupkg.sha512",
+    "C:\\Users\\mralh\\.nuget\\packages\\nunit3testadapter\\4.6.0\\nunit3testadapter.4.6.0.nupkg.sha512",
+    "C:\\Users\\mralh\\.nuget\\packages\\selenium.support\\4.41.0\\selenium.support.4.41.0.nupkg.sha512",
+    "C:\\Users\\mralh\\.nuget\\packages\\selenium.webdriver\\4.41.0\\selenium.webdriver.4.41.0.nupkg.sha512",
+    "C:\\Users\\mralh\\.nuget\\packages\\selenium.webdriver.chromedriver\\146.0.7680.15300\\selenium.webdriver.chromedriver.146.0.7680.15300.nupkg.sha512",
+    "C:\\Users\\mralh\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
