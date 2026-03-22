@@ -6,6 +6,9 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
+  repository_dispatch:
+    types: [run-ui-tests]
+
 
 jobs:
   selenium-tests:
