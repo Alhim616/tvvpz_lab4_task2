@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DemoblazeE2ETests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8498587807a2298e73ca880c22069bc2b4bf8c58")]
 [assembly: System.Reflection.AssemblyProductAttribute("DemoblazeE2ETests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DemoblazeE2ETests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QVRpH2GKows=",
+  "dgSpecHash": "GbY8hBI6Vag=",
   "success": true,
-  "projectFilePath": "D:\\ztu\\magist\\sem1\\ТВВПЗ\\lab3\\task3\\DemoblazeE2ETests\\DemoblazeE2ETests.csproj",
+  "projectFilePath": "D:\\ztu\\magist\\sem1\\ТВВПЗ\\lab4\\task2\\DemoblazeE2ETests\\DemoblazeE2ETests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mralh\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\mralh\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",

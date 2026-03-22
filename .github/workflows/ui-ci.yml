@@ -1,0 +1,43 @@
+name: UI Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+  repository_dispatch:
+    types: [run-ui-tests]
+
+jobs:
+  selenium-tests:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '7.0.x'
+
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Build
+      run: dotnet build --no-restore
+
+    - name: Run Selenium Tests
+      run: dotnet test --no-build --logger:"trx;LogFileName=TestResults.trx"
+
+    - name: Upload Test Results
+      uses: actions/upload-artifact@v3
+      with:
+        name: TestResults
+        path: "**/TestResults/*.trx"
+
+    - name: Publish Test Results
+      uses: microsoft/publish-test-results@v2
+      with:
+        testResultsFiles: '**/TestResults/*.trx'
+        testRunTitle: 'Selenium UI Tests'

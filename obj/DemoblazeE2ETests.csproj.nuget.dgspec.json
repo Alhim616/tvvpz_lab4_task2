@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ztu\\magist\\sem1\\ТВВПЗ\\lab3\\task3\\DemoblazeE2ETests\\DemoblazeE2ETests.csproj": {}
+    "D:\\ztu\\magist\\sem1\\ТВВПЗ\\lab4\\task2\\DemoblazeE2ETests\\DemoblazeE2ETests.csproj": {}
   },
   "projects": {
-    "D:\\ztu\\magist\\sem1\\ТВВПЗ\\lab3\\task3\\DemoblazeE2ETests\\DemoblazeE2ETests.csproj": {
+    "D:\\ztu\\magist\\sem1\\ТВВПЗ\\lab4\\task2\\DemoblazeE2ETests\\DemoblazeE2ETests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ztu\\magist\\sem1\\ТВВПЗ\\lab3\\task3\\DemoblazeE2ETests\\DemoblazeE2ETests.csproj",
+        "projectUniqueName": "D:\\ztu\\magist\\sem1\\ТВВПЗ\\lab4\\task2\\DemoblazeE2ETests\\DemoblazeE2ETests.csproj",
         "projectName": "DemoblazeE2ETests",
-        "projectPath": "D:\\ztu\\magist\\sem1\\ТВВПЗ\\lab3\\task3\\DemoblazeE2ETests\\DemoblazeE2ETests.csproj",
+        "projectPath": "D:\\ztu\\magist\\sem1\\ТВВПЗ\\lab4\\task2\\DemoblazeE2ETests\\DemoblazeE2ETests.csproj",
         "packagesPath": "C:\\Users\\mralh\\.nuget\\packages\\",
-        "outputPath": "D:\\ztu\\magist\\sem1\\ТВВПЗ\\lab3\\task3\\DemoblazeE2ETests\\obj\\",
+        "outputPath": "D:\\ztu\\magist\\sem1\\ТВВПЗ\\lab4\\task2\\DemoblazeE2ETests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Programs\\VS\\VSSDKs\\NuGetPackages"
