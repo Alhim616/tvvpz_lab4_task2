@@ -6,8 +6,6 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
-  repository_dispatch:
-    types: [run-ui-tests]
 
 jobs:
   selenium-tests:
@@ -28,16 +26,10 @@ jobs:
       run: dotnet build --no-restore
 
     - name: Run Selenium Tests
-      run: dotnet test --no-build --logger:"trx;LogFileName=TestResults.trx"
+      run: dotnet test --no-build --logger:"github"
 
     - name: Upload Test Results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: TestResults
         path: "**/TestResults/*.trx"
-
-    - name: Publish Test Results
-      uses: microsoft/publish-test-results@v2
-      with:
-        testResultsFiles: '**/TestResults/*.trx'
-        testRunTitle: 'Selenium UI Tests'
