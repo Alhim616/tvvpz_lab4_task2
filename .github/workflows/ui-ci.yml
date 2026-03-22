@@ -26,9 +26,11 @@ jobs:
       run: dotnet build --no-restore
 
     - name: Run Selenium Tests
-      run: dotnet test --no-build --logger:"github"
+      # Логгер "trx" створить файл TestResults.trx
+      run: dotnet test --no-build --logger "trx;LogFileName=TestResults.trx"
 
     - name: Upload Test Results
+      # Завантажуємо файл як артефакт для перегляду
       uses: actions/upload-artifact@v4
       with:
         name: TestResults
